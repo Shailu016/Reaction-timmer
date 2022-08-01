@@ -55,7 +55,7 @@ export default {
 }
 
 button {
-  background-color: rgb(37, 148, 240);
+  background-color: rgb(38, 173, 167);
   color: #fff;
   border: none;
   padding: 10px 20px;
