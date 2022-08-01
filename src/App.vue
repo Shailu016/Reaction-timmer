@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div class="container">
     <h1>Reaction Timmer</h1>
     <button class="button" @click="start" :disabled="isPlaying">
@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script>
+  <script>
 import Block from "./components/Block.vue";
 import Result from "./components/Result.vue";
 export default {
@@ -38,7 +38,7 @@ export default {
 };
 </script>
 
-<style>
+  <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -52,5 +52,20 @@ export default {
     margin-top: 90px;
     width: 100%;
   }
+}
+
+button {
+  background-color: rgb(37, 148, 240);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
 </style>
