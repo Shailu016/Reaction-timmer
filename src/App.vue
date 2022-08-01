@@ -47,4 +47,10 @@ export default {
   color: #444;
   margin-top: 60px;
 }
+@media only screen and (max-width: 768px) {
+  .container {
+    margin-top: 90px;
+    width: 100%;
+  }
+}
 </style>
